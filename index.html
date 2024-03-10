@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Delta</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="icon" href="img/logo1.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div target="_blank" href="index.html" class="logo">
+				<div class="btn-menu">
+					<label for="btn-menu">
+						<img src="img/icon0.png">
+					</label>
+				</div>
+				<img src="img/logo1.png">
+				<h1 href="index.html">Delta</h1>
+			</div>
+			<nav class="menu">
+				<!--<a target="_blank" href="index.html">
+					<img src="img/icon1.png">Inicio</a>-->
+				<a target="_blank" href="https://www.facebook.com/">
+					<img src="img/icon4.png">Facebook</a>
+				<a target="_blank" href="https://www.youtube.com/">
+					<img src="img/icon2.png">YouTube</a>
+				<a target="_blank" href="https://www.instagram.com/">
+					<img src="img/icon3.png">Instagram</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+	<!--	--------------->
+	<input type="checkbox" id="btn-menu">
+	<div class="container-menu">
+		<div class="cont-menu">
+			<nav>
+				<a href="https://www.canva.com/design/DAFkPRUsCug/Rx60Z1LT8Ahxy1qDygHCgw/view?utm_content=DAFkPRUsCug&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Presentación</a>
+				<a href="https://www.facebook.com/">Facebook</a>
+				<a href="https://www.youtube.com/">YouTube</a>
+				<a href="https://www.instagram.com/">Instagram</a>
+			</nav>
+			<label for="btn-menu" class="close-menu">
+				<img src="img/icon00.png">
+			</label>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="capa"></div>
+		<div class="info">
+			<h1>PÁGINAS WEB PARA TU NEGOCIO</h1>
+			<p>Converte tu visión en el mundo digital en realidad con nuestras páginas web hechas a la medida</p>
+			<a target="_blank"
+				href="https://www.canva.com/design/DAFkPRUsCug/Rx60Z1LT8Ahxy1qDygHCgw/view?utm_content=DAFkPRUsCug&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">¡Visita nuestra presentación!</a>
+		</div>
+	</div>
+
+	<div class="banner2">
+       		 <img src="img/banner02.png" alt="Imagen del banner">
+       		 <div class="content">
+            <h1>¡Honsting y Dominio web en un mismo sitio!</h1>
+            <p>Personaliza la Dirección web y administra el alojamiento en la nube desde nuestra web.</p>
+      		  </div>
+  	  </div>
+	<div class="banner02">
+		<h1>UN SOLO PROGRAMADOR, INFINIDAD DE DISEÑOS</h1>
+	</div>
+
+	<!--Titulo de planes-->
+	<div class="title-cards">
+		<h2>Nuestros modelos</h2>
+	</div>
+	<!--Planes-->
+	<div class="container-card">
+
+		<div class="card">
+			<figure>
+				<img src="img/5.png">
+			</figure>
+			<div class="contenido-card">
+				<h3>Modelo 1</h3>
+				<p>Pagina web con 5GB de almacenamiento.</p>
+				<label for="btn-modal">
+				<a>Información</a>
+				</label>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+				<img src="img/75.png">
+			</figure>
+			<div class="contenido-card">
+				<h3>Modelo 2</h3>
+				<p>Pagina web con 75GB de almacenamiento</p>
+				<label for="btn-modal">
+				<a>Información</a>
+				</label>
+			</div>
+		</div>
+	</div>
+	<script>
+		window.addEventListener('scroll', function () {
+			var header = document.querySelector('.header');
+			if (window.scrollY > 0) {
+				header.classList.add('scrolled');
+			} else {
+				header.classList.remove('scrolled');
+			}
+		});
+	</script>
+	<div class="banner4">
+		<img src="img/banner05.png" alt="Imagen del banner">
+		<div class="content">
+			<h1>Entorno de desarrollo confiable y seguro</h1>
+			<p>Contamos con personal altamente calificado</p>
+		</div>
+	</div>
+	<!--Ventana Modal-->
+	<input type="checkbox" id="btn-modal">
+	<div class="container-modal">
+		<div class="content-modal">
+			<h2>¡Próximamente!</h2>
+			<p>Aún estamos en fase de desarrollo
+				¡Gracias por interesarte en Delta!
+			</p>
+			<div class="btn-cerrar">
+				<label for="btn-modal">Cerrar</label>
+			</div>
+		</div>
+		<label for="btn-modal" class="cerrar-modal"></label>
+	</div>
+	<!--::::Pie de Pagina::::::-->
+	<footer class="pie-pagina">
+		<div class="grupo-1">
+			<div class="box">
+				<figure>
+					<a href="#">
+						<img src="img/logo1.png" alt="Logo delta">
+					</a>
+				</figure>
+			</div>
+			<div class="box">
+				<h2>SOBRE NOSOTROS</h2>
+				<p>Somos una microempresa de ventas páginas web con la ventaja de tener a un programador designado al
+					cliente para una atención más personalizada y eficaz</p>
+			</div>
+			<div class="box">
+				<h2>SIGUENOS</h2>
+				<div class="red-social">
+					<a href="https://www.facebook.com/" class="fa fa-facebook">
+						<img src="img/icon4.png">
+					</a>
+					<a href="https://www.youtube.com/" class="fa fa-youtube">
+						<img src="img/icon2.png">
+					</a>
+					<a href="https://www.instagram.com/" class="fa fa-instagram">
+						<img src="img/icon3.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="grupo-2">
+			<small>&copy; 2023 <b>Delta</b> - Todos los Derechos Reservados.</small>
+		</div>
+	</footer>
+</body>
+
+</html>
